@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Tiaviniaina Princio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <header class="hero">
+        <div class="profile-container">
+            <img src="profile.jpg" alt="Princio" class="profile-img">
+            <h1>RAKOTOVAO Tiaviniaina Princio</h1>
+            <p class="tagline">Étudiant L3 Télécommunications – Réseaux & Systèmes</p>
+        </div>
+    </header>
+
+    <main class="container">
+        <div class="grid-menu">
+            <a href="#profile" class="card btn-blue">
+                <i class="fas fa-user-tie"></i>
+                <span>VOIR LE PROFILE</span>
+            </a>
+            <a href="cv-princio.pdf" class="card btn-green" download>
+                <i class="fas fa-file-pdf"></i>
+                <span>TÉLÉCHARGER CV</span>
+            </a>
+            <a href="#contact" class="card btn-yellow">
+                <i class="fas fa-paper-plane"></i>
+                <span>CONTACT</span>
+            </a>
+            <a href="#links" class="card btn-red">
+                <i class="fas fa-external-link-alt"></i>
+                <span>LIENS EXTERNES</span>
+            </a>
+            <a href="#projects" class="card btn-purple">
+                <i class="fas fa-project-diagram"></i>
+                <span>PROJETS RÉALISÉS</span>
+            </a>
+            <a href="#newsletter" class="card btn-grey">
+                <i class="fas fa-envelope-open-text"></i>
+                <span>NEWSLETTER</span>
+            </a>
+        </div>
+
+        <section id="profile" class="content-section">
+            <h2><i class="fas fa-user"></i> À Propos de Moi</h2>
+            <p class="storytelling">"Étudiant dynamique en fin de cycle de Licence... Mon objectif est de concevoir des solutions connectées, sécurisées et optimisées."</p>
+            <div class="details-grid">
+                <div class="info-box">
+                    <h3>Formation</h3>
+                    <p>❖ 2023 - 2026 : Licence 3 ES2I Itasy</p>
+                    <p>❖ 2023 : Baccalauréat Scientifique Série C</p>
+                </div>
+                <div class="info-box">
+                    <h3>Certification</h3>
+                    <p>Certificat en IA Générative et Automatisation (ODC Madagascar)</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="content-section">
+            <h2><i class="fas fa-briefcase"></i> Projets Réalisés</h2>
+            <div class="projects-flex">
+                <div class="project-card">
+                    <img src="projet1.jpg" alt="Network Topology">
+                    
+                    <h3>Infrastructure Réseau Multi-sites</h3>
+                    <p>Configuration OSPF, VLANs, ACLs sur Cisco Packet Tracer.</p>
+                </div>
+                <div class="project-card">
+                    <img src="projet2.jpg" alt="VoIP Server">
+                    
+                    <h3>Serveur Téléphonie IP (VoIP)</h3>
+                    <p>Installation Asterisk sur Debian sy configuration SIP.</p>
+                </div>
+                <div class="project-card">
+                    <img src="projet3.jpg" alt="AI Automation">
+                    
+                    <h3>Assistant IA Incident Réseaux</h3>
+                    <p>Automatisation de diagnostic via OpenAI API et Make.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="content-section">
+            <h2><i class="fas fa-address-book"></i> Me Contacter</h2>
+            <div class="contact-container">
+                <form class="contact-form">
+                    <input type="text" placeholder="Nom" required>
+                    <input type="email" placeholder="Email" required>
+                    <input type="text" placeholder="Objet (ex: Proposition de Stage)" required>
+                    <textarea placeholder="Message" rows="5"></textarea>
+                    <button type="submit">Envoyer le message</button>
+                </form>
+                <div class="contact-info">
+                    <p><i class="fas fa-envelope"></i> princiotiaviniaina240906@gmail.com</p>
+                    <p><i class="fas fa-phone"></i> +261 38 53 132 94</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Andranomena Ambohimanarina</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="newsletter" class="newsletter-section">
+            <h3>Restez à l’écoute de l’innovation</h3>
+            <p>Passionné par l'infrastructure numérique, je partage mes veilles technologiques.</p>
+            <form class="news-form">
+                <input type="email" placeholder="votre email ici..." required>
+                <button type="submit">S’inscrire à la veille</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 RAKOTOVAO Tiaviniaina Princio. Tous droits réservés.</p>
+    </footer>
+
+</body>
+</html>
